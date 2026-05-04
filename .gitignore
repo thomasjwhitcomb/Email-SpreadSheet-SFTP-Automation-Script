@@ -1,0 +1,32 @@
+# ── Secrets (NEVER commit these) ─────────────────────────────────────────────
+.env
+credentials.json
+token.json
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# ── PyInstaller build output ──────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+
+# ── Runtime artifacts ─────────────────────────────────────────────────────────
+aha_bot.log
+*.log
+.browser_session/
+C:/temp/
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+desktop.ini
