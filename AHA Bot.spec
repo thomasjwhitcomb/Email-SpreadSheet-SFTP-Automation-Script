@@ -1,10 +1,9 @@
-# -*- mode: python ; coding: utf-8 -*-
+﻿# -*- mode: python ; coding: utf-8 -*-
 import os
 from PyInstaller.utils.hooks import collect_data_files
 
 datas = [
-    (os.path.join(SPECPATH, '.env'),             '.'),
-    (os.path.join(SPECPATH, 'credentials.json'), '.'),
+    (os.path.join(SPECPATH, '.env.example'),     '.'),
     (os.path.join(SPECPATH, 'icon.ico'),         '.'),
 ]
 datas += collect_data_files('customtkinter')
@@ -60,3 +59,4 @@ coll = COLLECT(
     upx_exclude=[],
     name='AHA Bot',
 )
+

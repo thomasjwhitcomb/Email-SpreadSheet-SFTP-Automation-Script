@@ -1,9 +1,9 @@
-# ── Secrets (NEVER commit these) ─────────────────────────────────────────────
+﻿# --- Secrets (NEVER commit these) ---
 .env
 credentials.json
 token.json
 
-# ── Python ────────────────────────────────────────────────────────────────────
+# --- Python ---
 __pycache__/
 *.pyc
 *.pyo
@@ -12,21 +12,26 @@ __pycache__/
 venv/
 env/
 
-# ── PyInstaller build output ──────────────────────────────────────────────────
+# --- PyInstaller build output ---
 dist/
 build/
 *.egg-info/
 
-# ── Runtime artifacts ─────────────────────────────────────────────────────────
+# --- Runtime artifacts ---
 aha_bot.log
 *.log
 .browser_session/
+.analytics_cache.json
 C:/temp/
 
-# ── IDE / OS ──────────────────────────────────────────────────────────────────
+# --- Claude Code ---
+.claude/
+
+# --- IDE / OS ---
 .idea/
 .vscode/
 *.iml
 .DS_Store
 Thumbs.db
 desktop.ini
+

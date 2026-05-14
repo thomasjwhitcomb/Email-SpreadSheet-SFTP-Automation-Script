@@ -1,11 +1,16 @@
-# AHA Registration Bot – Python dependencies
+﻿# AHA Registration Bot - Python dependencies
 # Install with:  pip install -r requirements.txt
 #                playwright install
 
 playwright>=1.44.0          # browser automation (manages its own Chromium, Firefox, WebKit binaries)
 gspread>=6.1.2
-google-auth-oauthlib>=1.2.0 # OAuth 2.0 flow for gspread.oauth() — no service account needed
+google-auth>=2.29.0         # provides google.auth exceptions used by OAuth handling
+google-auth-oauthlib>=1.2.0 # OAuth 2.0 flow for gspread.oauth() - no service account needed
 python-dotenv>=1.0.1
 paramiko>=3.4.0             # SFTP upload to RQI server
 keyring>=25.2.0             # OS keychain access for SFTP password
 customtkinter>=5.2.2        # modern dark-theme GUI framework
+pytest>=8.2.0               # focused unit tests for parsers and helpers
+msal>=1.28.0                # Microsoft Authentication Library (Graph API OAuth2)
+apscheduler>=3.10.0         # Background job scheduler for reminder emails
+
