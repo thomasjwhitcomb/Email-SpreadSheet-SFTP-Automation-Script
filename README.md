@@ -1,7 +1,7 @@
 # AHA Registration Bot
 ### CPR Lifeline - Sac State - CSC131 Team 08
 
-An automated desktop application that handles student registration for AHA (American Heart Association) CPR classes. It monitors incoming Outlook emails, accepts pending student requests in AHA Atlas, updates Google Sheets, sends confirmation and reminder emails via Microsoft Graph, and uploads records to the RQI server over SFTP — all from a single GUI.
+An automated desktop application that handles student registration for AHA (American Heart Association) CPR classes. It monitors incoming Outlook emails, accepts pending student requests in AHA Atlas, updates Google Sheets, sends confirmation and reminder emails via Microsoft Graph, and uploads records to the RQI server over SFTP.
 
 ---
 
